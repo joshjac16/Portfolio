@@ -1,0 +1,123 @@
+ :root{
+    --header: gray;
+    --head_content: grey;
+    --head_back: yellow;
+
+ }
+ 
+header{
+    font-family:'Times New Roman', Times, serif;
+    background-color: var(--header);
+    padding-top: 1px;
+    text-align: start;
+    text-align: left;
+}
+h1{
+    margin-left: 5px;
+    align-content: right;
+}
+h2{
+    font-size: 50px;
+}
+div{
+    border-left-width: 5px;
+}
+mark{
+    padding-left: 50px;
+    color: var(--head_content);
+    background-color: var(--head_back);
+}
+nav{
+    
+    text-decoration-thickness: 3px;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    font-size: 20px;
+   
+}
+ 
+nav a {
+    flex-direction: row-reverse;
+    text-decoration: underline;
+    color: var(--head_back);
+    padding: 14px 20px 0px 0px;
+    text-decoration: none;
+    text-align: right;
+}
+nav b{
+    color: var(--);
+    padding: 14px 20px 0px 0px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.about_aside {
+    border-color: blue;
+    border-right-width: 5px;
+    border-right-style: solid;
+    float: left;
+    width: 20%;
+    height: 145;
+    padding: 10px;
+    text-align: right;
+}
+.content_aside{
+    border-color: blue;
+    border-right-width: 5px;
+    border-right-style: solid;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 200%;
+    text-align: right;
+}
+p{
+    font-size: 25px;
+    height: 145px;
+}
+.content {
+    width: 73%;
+    display: inline-block;
+    margin-left: 33px;
+}
+.content-format {
+    margin-bottom: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style:solid;
+    border-width: 10px;
+    border-color: rgb(202, 202, 53);
+    color: #ffffff;
+}
+h4{
+    margin-left: 5px;
+    align-content: right;
+    color: white;
+    background-color: black;
+}
+
+h3{
+    color: black;
+    background-color: rgb(202, 202, 53) ;
+    margin-right: 600px;
+    position: relative;
+    bottom: 0px;
+    
+}
+@media screen and (max-width:950px) {  
+    .about_aside,.content_aside {
+      display: none;
+    }
+  }
+@media screen and (max-device-width: 480px){ 
+    .about_aside {
+        display: none;
+      }
+
+    .content {
+        width: 100%;
+        display: inline-block;
+       
+    }
+
+  }
